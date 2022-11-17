@@ -1,0 +1,11 @@
+Revenue_ID,Source_Name,Income,Team_ID
+MERC_001,T-shirt January Sales,500000,APAC_001
+STRE_001,Stream Income,170000,NA_001
+MERC_120,Merchandise sales,80000,EMEA_001
+TICK_004,Ticket Sales,45000,APAC_401
+STRE_002,Public Stream Income,78000,NA_602
+TICK_002,Ticket sales for the challengers games.,120000,NA_001
+MERC_302,Team jersey sales,70000,NA_901
+ADR_533,Revenue from Advertisements,180000,EMEA_501
+ADR_374,Ad Revenue,300000,NA_301
+STRE_007,Twitch Stream Income.,752000,NA_002

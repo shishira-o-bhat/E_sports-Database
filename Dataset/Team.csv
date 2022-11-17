@@ -1,0 +1,26 @@
+Team_ID,Team_name,No_of_players,Owner_name,Game_ID
+NA_001,Optic Gaming,8,Hector Rodriguez,RIOT_001
+NA_002,Sentinels,9,Rob Moore,RIOT_001
+APAC_001,Paper ReX,7,Kerri Hoffman,RIOT_001
+EMEA_001,Fnatic,9,Sam Matthews,RIOT_001
+NA_101,San Francisco Shock,9,Andy Miller,BLIZ_001
+NA_102,Dallas Fuel,8,Mike Rufail Kenneth Hersh,BLIZ_001
+NA_201,NRG,6,Andy Miller,RESP_001
+NA_202,TSM,5,Andy Dinh Bjerg,RESP_001
+NA_301,Elite Esports,4,Matt Guerensy,EPIC_001
+NA_302,Fusion Esports,4,Jhoulys Chachin,EPIC_001
+EMEA_401,Blood Eagle,8,Fredrik Formo,KRAF_001
+NA_401,Ghost Gaming,7,Julian Castro,KRAF_001
+APAC_401,GodLike,7,Chetan Chandgude,KRAF_001
+EMEA_501,Team Liquid,9,Victor Gossens,VALV_001
+NA_501,Cloud9,8,Jack Etienne,VALV_001
+NA_502,Evil Geniuses,7,Nicole LaPointe Jameson,VALV_001
+NA_601,100 Thieves,8,Matthew Haag,RIOT_002
+NA_602,Counter Logic Gaming,10,George Georgallidis,RIOT_002
+EMEA_701,G2 Esports,5,Jens Hilgers,PSYO_001
+EMEA_702,Team Vitality,5,Nicolas Maurer,PSYO_001
+NA_801,Immortals,8,Jordan Sherman,VALV_002
+EMEA_801,Nigma Galaxy,8,Christoph Timm,VALV_002
+EMEA_802,Tundra Esports,8,Maxim Demin,VALV_002
+NA_901,ROX gaming,3,Sidney Yun Joong Kim,NAMC_001
+NA_902,Echo Fox,3,Rick Fox,NAMC_001
