@@ -81,17 +81,13 @@ def main():
         st.subheader("View Created Details")
         read()
 
-    elif choice == "update":
+    elif choice == "Update":
         st.subheader("Update Details")
         update()
 
-    elif choice == "delete":
+    elif choice == "Delete":
         st.subheader("Delete Details")
         delete()
-
-
-
-
 
 if __name__ == '__main__':
 	main()

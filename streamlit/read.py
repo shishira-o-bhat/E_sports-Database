@@ -7,13 +7,9 @@ from database import view_all_data
 def read():
     result = view_all_data()
     # st.write(result)
-    df = pd.DataFrame(result, columns=[
-                      'Train Number', 'Train Name', 'Train Type', 'Source', 'Destination', 'Availability'])
-    with st.expander("View Trains"):
+    df = pd.DataFrame(result, columns=['Game_ID','Game_Name','No_of_players_per_team','No_of_teams_competing','No_of_players_worldwide','Creator'])
+    with st.expander("View Games"):
         st.dataframe(df)
-    with st.expander("Availability"):
-        task_df = df['Availability'].value_counts().to_frame()
-        task_df = task_df.reset_index()
-        st.dataframe(task_df)
-        p1 = px.pie(task_df, names='index', values='Availability')
+    with st.expander("No_of_players_worldwide"):
+        p1 = px.pie(df, names='Game_Name', values='No_of_players_worldwide')
         st.plotly_chart(p1)
