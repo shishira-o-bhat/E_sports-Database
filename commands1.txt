@@ -1,6 +1,6 @@
 1)player table:
 
-CREATE TABLE Player_397(Player_ID varchar(255) NOT NULL, Player_Name varchar(255), Position varchar(255), DOB DATE,Salary int,Game_ID varchar(255),Team_ID varchar(255), PRIMARY KEY(Player_ID),FOREIGN KEY(Team_ID) REFERENCES Team_397(Team_ID));
+CREATE TABLE Player_397(Player_ID varchar(255) NOT NULL, Player_Name varchar(255), Position varchar(255), DOB DATE,Salary int,Team_ID varchar(255), PRIMARY KEY(Player_ID),FOREIGN KEY(Team_ID) REFERENCES Team_397(Team_ID));
 
 1.1)game player table:
 CREATE TABLE Plays_397(Player_ID varchar(255),Game_ID varchar(255),FOREIGN KEY(Player_ID) REFERENCES Player_397(Player_ID),FOREIGN KEY(Game_ID) REFERENCES Game_397(Game_ID),CONSTRAINT game_player_unique UNIQUE (Player_ID, Game_ID));

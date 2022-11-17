@@ -1,10 +1,10 @@
-Player_ID,Player_Name,Position,DOB,Salary,Game_ID,Team_ID
-IND_001,Rohit Kumar,Duelist,12/9/1997,450000,RIOT_001,NA_002
-USA_001,Jeff Musk,Support,25/04/1996,300000,BLIZ_001,NA_101
-ESP_001,Carlos Alonso,Shield,20/01/1999,150000,RESP_001,NA_202
-AUS_001,Daniel Webber,Aggressor,6/6/2004,90000,EPIC_001,NA_301
-CAN_001,Nicholas Stroll,Passive,1/12/2000,110000,KRAF_001,APAC_401
-MEX_001,Sergio Rodriguez,Smoker,28/02/1993,250000,VALV_001,NA_501
-ARG_001,Lionel Aguero,Attack,4/7/1996,170000,RIOT_002,NA_602
-GER_001,Thomas Reus,Defense,8/11/1998,190000,VALV_002,EMEA_801
-KOR_001,Kim Byoung In,Aggressor,17/05/2001,50000,NAMC_001,NA_902
+Player_ID,Player_Name,Position,DOB,Salary,Team_ID
+IND_001,Rohit Kumar,Duelist,1997-12-09,450000,NA_002
+USA_001,Jeff Musk,Support,1996-04-25,300000,NA_101
+ESP_001,Carlos Alonso,Shield,1999-01-20,150000,NA_202
+AUS_001,Daniel Webber,Aggressor,2004-06-06,90000,NA_301
+CAN_001,Nicholas Stroll,Passive,2000-01-12,110000,APAC_401
+MEX_001,Sergio Rodriguez,Smoker,1993-08-02,250000,NA_501
+ARG_001,Lionel Aguero,Attack,1996-04-07,170000,NA_602
+GER_001,Thomas Reus,Defense,1998-08-09,190000,EMEA_801
+KOR_001,Kim Byoung In,Aggressor,2001-05-17,50000,NA_902

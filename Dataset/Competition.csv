@@ -1,1 +1,14 @@
-Competition_name,Location,Prize_pool,Organiser_name
+Competition_ID,Competition_name,Location,Date_of_Competition,Prize_pool,Organiser_name,Game_ID
+ICE_001,VCT Masters,Reykjavik,2021-03-10,5000000,Riot Games,RIOT_001
+GER_001,VCT Champions,Berlin,2021-10-10,15000000,Riot Games,RIOT_001
+ICE_002,VCT Masters,Reykjavik,2021-08-10,500000,Riot Games,RIOT_001
+TUR_001,VCT Champions,Istanbul,2022-10-10,15000000,Riot Games,RIOT_001
+USA_001,Overwatch League,California,2018-07-19,2500000,Blizzard Games,BLIZ_001
+FRA_001,Apex League,Paris,2021-06-21,1500000,Panic Button Games,RESP_001
+ESP_001,Fortnite Conquerors,Madrid,2020-03-03,1000000,Epic Games,EPIC_001
+ITA_001,PUBG Champions,Rome,2022-01-05,800000,KRAFTON,KRAF_001
+AUS_001,Grand Masters,Canberra,2022-05-24,1100000,VALVE Corporation,VALV_001
+IND_001,League Champions,Bengaluru,2019-07-18,2500000,Riot Games,RIOT_002
+SIN_001,Rocket League Tourney,Singapore City,2020-12-14,2000000,Psyonix,PSYO_001
+JAP_002,Dota conquerors,Tokyo,2021-10-24,1000000,VALVE Corporation,VALV_002
+KOR_001,Tekken warriors,Seoul,2019-02-20,150000,NAMCO,NAMC_001

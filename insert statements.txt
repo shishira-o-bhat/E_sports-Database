@@ -1,0 +1,11 @@
+INSERT INTO game_397 (Game_ID,Game_name,Creator,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide) VALUES 
+('RIOT_001','Valorant','Riot Games',5,2,700000),
+('BLIZ_001','Overwatch 2','Blizzard',5,2,163000),
+('RESP_001','Apex Legends','Panic Button Games',3,20,169000),
+('EPIC_001','Fortnite','Epic Games',1,99,3000000),
+('KRAF_001','PUBG','KRAFTON',4,16,30000000),
+('VALV_001','CS:GO','VALVE Corporation',5,2,800000),
+('RIOT_002','League of Legends','Riot Games',5,2,2300000),
+('PSYO_001','Rocket League','Psyonix',3,2,6000000),
+('VALV_002','Dota 2','VALVE Corporation',5,2,666000),
+('NAMC_001','Tekken','NAMCO',1,1,5000);
