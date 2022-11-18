@@ -34,13 +34,13 @@ def get_game(Game_name):
 
 
 def edit_game_data(new_Game_ID,new_Game_Name,new_No_of_players_per_team,new_No_of_teams_competing,new_No_of_players_worldwide,new_Creator,Game_ID,Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator):
-    c.execute("UPDATE Game_397 SET Game_ID=%s, Game_Name=%s, No_of_players_per_team=%s, No_of_teams_competing=%s, No_of_players_worldwide=%s, Creator=%s WHERE "
-              "Game_ID=%s, Game_Name=%s, No_of_players_per_team=%s, No_of_teams_competing=%s, No_of_players_worldwide=%s, Creator=%s", (new_Game_ID,new_Game_Name,new_No_of_players_per_team,new_No_of_teams_competing,new_No_of_players_worldwide,new_Creator,Game_ID,Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator))
+    c.execute("UPDATE Game_397 SET Game_ID=%s, Game_Name=%s, No_of_players_per_team=%s, No_of_teams_competing=%s, No_of_players_worldwide=%s, Creator=%s WHERE Game_ID=%s AND Game_Name=%s AND No_of_players_per_team=%s AND No_of_teams_competing=%s AND No_of_players_worldwide=%s AND Creator=%s",
+    (new_Game_ID,new_Game_Name,new_No_of_players_per_team,new_No_of_teams_competing,new_No_of_players_worldwide,new_Creator,Game_ID,Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator))
     mydb.commit()
     data = c.fetchall()
     return data
 
 
-def delete_data(Game_ID):
-    c.execute('DELETE FROM Game_397 WHERE Game_ID="{}"'.format(Game_ID))
+def delete_data(Game_Name):
+    c.execute('DELETE FROM Game_397 WHERE Game_Name="{}"'.format(Game_Name))
     mydb.commit()

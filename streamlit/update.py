@@ -32,8 +32,7 @@ def update():
             new_No_of_teams_competing = st.number_input("New number of teams competing:")
             new_Creator = st.text_input("New creator:")
         if st.button("Update"):
-            edit_game_data(new_Game_ID, new_Game_Name, new_No_of_players_per_team, new_No_of_teams_competing,
-                            new_No_of_players_worldwide, new_Creator,Game_ID,Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator)
+            edit_game_data(new_Game_ID,new_Game_Name,new_No_of_players_per_team,new_No_of_teams_competing,new_No_of_players_worldwide,new_Creator,Game_ID,Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator)
             st.success("Successfully updated:: {} to ::{}".format(
                 Game_Name, new_Game_Name))
 
