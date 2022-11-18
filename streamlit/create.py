@@ -9,7 +9,7 @@ def create():
         No_of_players_per_team = st.number_input("Number of Players per team:")
         No_of_players_worldwide = st.number_input("Number of Players worldwide:")
     with col2:
-        Game_Name = st.text_input("Game_Name:")
+        Game_Name = st.text_input("Game Name:")
         No_of_teams_competing = st.number_input("Number of teams competing:")
         Creator = st.text_input("Creator:")
     if st.button("Add Game"):

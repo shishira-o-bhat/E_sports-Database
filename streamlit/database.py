@@ -11,10 +11,8 @@ c = mydb.cursor()
 def create_table():
     c.execute('CREATE TABLE IF NOT EXISTS Game_397(Game_ID TEXT, Game_Name TEXT, No_of_players_per_team NUMBER, No_of_teams_competing NUMBER, No_of_players_worldwide NUMBER, Creator TEXT)')
 
-def add_data(game_id, game_name,no_of_players,no_of_teams, no_of_players_ww, creator):
-    c.execute('INSERT INTO Game_397(Game_ID, Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator) VALUES (%s,%s,%s,'
-              '%s,%s,%s)',
-              (game_id, game_name,no_of_players,no_of_teams, no_of_players_ww, creator))
+def add_data(Game_ID,Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator):
+    c.execute('INSERT INTO Game_397(Game_ID, Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator) VALUES (%s,%s,%s,%s,%s,%s)',(Game_ID,Game_Name,No_of_players_per_team,No_of_teams_competing,No_of_players_worldwide,Creator))
     mydb.commit()
 
 
