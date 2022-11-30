@@ -184,7 +184,5 @@ BEGIN
    CLOSE cursor_player;
 
    RETURN PlayerName;
-
 END; $$
-
 DELIMITER ;
