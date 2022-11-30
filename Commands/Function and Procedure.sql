@@ -1,17 +1,17 @@
 -- Function
 
 DELIMITER $$
-CREATE FUNCTION tax_397(Income VARCHAR(10))
-RETURNS VARCHAR(100)
+CREATE FUNCTION tax_397(Income INT)
+RETURNS INT
 DETERMINISTIC
 BEGIN
-	DECLARE tax VARCHAR(100);
+	DECLARE tax INT;
 	IF  Income <= 10000 THEN
-		SET tax = 'A tax of 10% needs to be payed.';
+		SET tax = 0.1*Income;
 	ELSEIF Income > 10000 AND income <= 50000 THEN
-		SET tax = 'A tax of 15% needs to be payed.';
+		SET tax = 0.15*Income;
 	ELSE
-		SET tax = 'A tax of 25% needs to be payed.';
+		SET tax = 0.25*Income;
 	END IF;
 	RETURN tax;
 END; $$
