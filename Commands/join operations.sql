@@ -1,6 +1,6 @@
 -- Natural Join
 
-SELECT * FROM game_397 NATURAL JOIN competition_397;
+SELECT Competition_Name,Game_Name,Prize_pool FROM competition_397 NATURAL JOIN game_397;
 
 -- Inner Join
 
